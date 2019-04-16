@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "09f71eb8-3993-45d0-9d5f-6870f46e4719",
+            "Value": {
+                "id": "b4f0c4e2-0126-456f-9148-4866025e3b2b",
+                "resourcePath": "objects\\obj_shopKeeper\\obj_shopKeeper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d588ec0-517f-447c-a76f-0d314edf9288",
             "Value": {
                 "id": "87782f72-cc68-4655-9aa4-51b36386444a",
@@ -108,6 +116,14 @@
                 "id": "83732c35-a6b5-4b54-8003-c5149b809652",
                 "resourcePath": "views\\24c53eaa-61f8-43b8-a5f0-7e99d4d68788.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2696a736-ae80-48ff-b6a5-e0d607246e42",
+            "Value": {
+                "id": "ae9688cf-7009-4ef2-a84e-e36f235a7c10",
+                "resourcePath": "objects\\obj_shopItem2\\obj_shopItem2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "5ceb5d60-299d-4447-aa6a-57b3c003610f",
+            "Value": {
+                "id": "1edfc71e-a60f-4777-84cf-665d07df0fe4",
+                "resourcePath": "objects\\obj_shopController\\obj_shopController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60ea3d30-91c4-4153-9431-03b801f4744c",
             "Value": {
                 "id": "ccf0f714-d053-4539-af48-1a35b3476950",
@@ -375,6 +399,14 @@
             }
         },
         {
+            "Key": "93ba9eb1-0111-4505-bbfd-2b56f4008f9a",
+            "Value": {
+                "id": "0e65e4ff-7bde-4f6c-beac-2858875a5fab",
+                "resourcePath": "objects\\obj_shopItem1\\obj_shopItem1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "973ceae6-83e1-4265-bff5-df0b036d924a",
             "Value": {
                 "id": "f9176183-623d-4b47-9249-06f025f266dd",
@@ -420,6 +452,14 @@
                 "id": "6884d53f-21f3-4a65-8e0b-10812573c1d8",
                 "resourcePath": "sprites\\sBarrel_small\\sBarrel_small.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a71ff120-93a7-4c5c-bafc-34af1bf025cd",
+            "Value": {
+                "id": "d589a44b-a5d8-4a17-8798-ef8f5de84fd7",
+                "resourcePath": "objects\\obj_shopItem3\\obj_shopItem3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
