@@ -202,7 +202,7 @@
             "Key": "4203fd47-ae7c-4d95-84e7-803840aea575",
             "Value": {
                 "id": "c96bd01c-b519-464e-b4e4-bf60fae13a07",
-                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -562,7 +562,7 @@
             "Key": "d55fdd41-a4e9-405e-abb5-a771cc837322",
             "Value": {
                 "id": "aa6f1f19-13ee-44c3-b9d5-d6af5f4adf34",
-                "resourcePath": "objects\\oBaddie\\oBaddie.yy",
+                "resourcePath": "objects\\obj_baddie\\obj_baddie.yy",
                 "resourceType": "GMObject"
             }
         },
