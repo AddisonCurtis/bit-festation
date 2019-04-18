@@ -1,0 +1,1 @@
+room_goto(roo_game_over);

@@ -1,3 +1,5 @@
+/*
+
 /// @description Execute Code
 //DISTANCE VARS
 var interactRange = oPlayer.sprite_width;
@@ -127,3 +129,5 @@ var j;
 for(j = 0; j < array_length_1d(items); j+=1){
 	show_debug_message("Player has " + string(items[j]));
 }
+
+*/
