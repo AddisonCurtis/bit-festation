@@ -5,9 +5,7 @@ KEY_DELAY_REAPEAT_WAIT = room_speed/20;
 repeatDelay = KEY_DELAY_REAPEAT_WAIT;
 
 moving = false;
-stepSize = 32;
-targX = x;
-targY = y;
+var keyDown = false;
 
 moveKeyDelay = 0;
 

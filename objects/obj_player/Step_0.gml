@@ -1,8 +1,9 @@
 // Handle key repeat delay
-var keyDown = false;
+keyDown = false;
 for (var i=0; i<array_length_1d(DIRECTIONAL_KEYS); i++) {
 	if (keyboard_check(DIRECTIONAL_KEYS[i])) {
 		keyDown = true;
+		moving = true;
 		if ((moveKeyDelay == 0 and repeatDelay == 0) or moveKeyDelay == KEY_DELAY_INITIAL_WAIT) {
 			switch (DIRECTIONAL_KEYS[i]) {
 				case ord("W"): tileMove(self,  0, -1); break;
