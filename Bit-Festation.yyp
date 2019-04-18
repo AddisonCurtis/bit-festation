@@ -2,7 +2,7 @@
     "id": "15f2fcea-0d3f-431e-8197-9e1de0c0df1f",
     "modelName": "GMProject",
     "mvc": "1.0",
-    "IsDnDProject": true,
+    "IsDnDProject": false,
     "configs": [
         
     ],
@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2b073f56-8f77-4132-a93e-9e94cbef0f25",
+            "Value": {
+                "id": "bd48f2ae-62c2-4a36-b21d-d5998e27c768",
+                "resourcePath": "tilesets\\til_dungeon\\til_dungeon.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "32849d99-269e-4688-91f3-3095ffc85b8d",
             "Value": {
                 "id": "04926eb2-92b8-440f-b81b-2812a76e9bb2",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "3dc5eaca-9b67-4cbd-858c-1b4dedd38210",
+            "Value": {
+                "id": "de670cf4-8362-4ebe-a364-85eea8e73a76",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3e942333-25b8-4525-847b-e3760615a7b5",
             "Value": {
                 "id": "b3fe279d-7532-40d7-a51a-f54aabd1d6b4",
@@ -210,7 +226,7 @@
             "Key": "4203fd47-ae7c-4d95-84e7-803840aea575",
             "Value": {
                 "id": "c96bd01c-b519-464e-b4e4-bf60fae13a07",
-                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -316,6 +332,14 @@
                 "id": "3eb8c675-4968-4554-bf88-40c2d6aff244",
                 "resourcePath": "views\\74756c19-096c-4ecb-9f48-9c69d3a9cc20.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "782ff268-986b-4cbd-8c05-95a633bf907c",
+            "Value": {
+                "id": "c88f2d56-75eb-4dc3-87ad-98c9556eefe3",
+                "resourcePath": "sprites\\spr_dungeon\\spr_dungeon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -503,6 +527,14 @@
             }
         },
         {
+            "Key": "bc556399-db89-4e23-92bc-3d3f3c700ca0",
+            "Value": {
+                "id": "d54e0c95-9d6b-49dc-80e4-c647b6e224b8",
+                "resourcePath": "rooms\\roo_test\\roo_test.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "bd482a97-ba34-4c3c-af7b-ff5a4ac9fed8",
             "Value": {
                 "id": "532ce6eb-8ebd-49f8-98de-169408125259",
@@ -586,7 +618,7 @@
             "Key": "d55fdd41-a4e9-405e-abb5-a771cc837322",
             "Value": {
                 "id": "aa6f1f19-13ee-44c3-b9d5-d6af5f4adf34",
-                "resourcePath": "objects\\oBaddie\\oBaddie.yy",
+                "resourcePath": "objects\\obj_baddie\\obj_baddie.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -727,11 +759,27 @@
             }
         },
         {
+            "Key": "f8b3e3ce-f74b-4364-ac97-1d9aa678b7b9",
+            "Value": {
+                "id": "ea24b70a-36bd-42e7-afef-b2c51669fd70",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f9980b20-aab8-46df-8d88-e3d96fd74904",
             "Value": {
                 "id": "4127f7f1-e591-4e29-a8c4-a9020b68c847",
                 "resourcePath": "sprites\\sSwitch_wall_off\\sSwitch_wall_off.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc28284f-0029-458f-aa69-90251383d828",
+            "Value": {
+                "id": "b8eec3c5-c2ba-4077-ab7f-c3426c57fe35",
+                "resourcePath": "scripts\\tileMove\\tileMove.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -744,7 +792,7 @@
         }
     ],
     "script_order": [
-        
+        "fc28284f-0029-458f-aa69-90251383d828"
     ],
     "tutorial": ""
 }
