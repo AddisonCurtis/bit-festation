@@ -6,8 +6,6 @@ var relDestY = argument2*16;
 var objW = object.sprite_width;
 var objH = object.sprite_height;
 
-show_debug_message(string(object.x+relDestX) +" : "+ string(object.y+relDestY) + " to " + 
-                   string(object.x+relDestX-sign(relDestX)*(objW-1)) + " : " + string(object.y+relDestY-sign(relDestY)*(objH-1)));
 if (sign(relDestX) == -1 or sign(relDestY) == -1) {
 	var collidedObject = collision_rectangle(object.x+relDestX, object.y+relDestY,
                                          object.x+relDestX-sign(relDestX)*(objW-1), object.y+relDestY-sign(relDestY)*(objH-1),
@@ -19,7 +17,6 @@ if (sign(relDestX) == -1 or sign(relDestY) == -1) {
 }
 
 if (collidedObject != noone) {
-	show_debug_message(collidedObject)
 	return false;
 } else {
 	object.x += relDestX;
