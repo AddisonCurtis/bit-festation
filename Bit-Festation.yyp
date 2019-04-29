@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "7d009988-cf07-4503-b713-be5dba3b5d94",
+            "Value": {
+                "id": "dfbac670-7545-4009-9b98-d4657dc92935",
+                "resourcePath": "sprites\\spr_skeleton\\spr_skeleton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d16b32e-38fb-4a68-ad3b-1f70dfeecee4",
             "Value": {
                 "id": "5cd16819-551f-476f-bc01-41a26165d1d3",
@@ -460,6 +468,14 @@
                 "id": "0e65e4ff-7bde-4f6c-beac-2858875a5fab",
                 "resourcePath": "objects\\obj_shopItem1\\obj_shopItem1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "949c9c34-6d17-4be3-8331-f67633156fcc",
+            "Value": {
+                "id": "4c2d6025-8866-48eb-a962-036effbb1006",
+                "resourcePath": "sprites\\spr_cursor\\spr_cursor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -700,6 +716,14 @@
                 "id": "61a731b2-5461-4ca2-b72e-e9db56722057",
                 "resourcePath": "rooms\\Dungeon\\Dungeon.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ddf1a8e0-8626-4b5c-b5fe-156c912770b3",
+            "Value": {
+                "id": "68a50d23-0c04-469b-988e-f7fa44fca9f5",
+                "resourcePath": "objects\\obj_cursor\\obj_cursor.yy",
+                "resourceType": "GMObject"
             }
         },
         {

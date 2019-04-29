@@ -7,10 +7,22 @@ for (var i=0; i<array_length_1d(DIRECTIONAL_KEYS); i++) {
 		if ((moveKeyDelay == 0 and repeatDelay == 0) or moveKeyDelay == KEY_DELAY_INITIAL_WAIT) {
 			madeMove = true;
 			switch (DIRECTIONAL_KEYS[i]) {
-				case ord("W"): tileMove(self,  0, -1); break;
-				case ord("A"): tileMove(self, -1,  0); break;
-				case ord("S"): tileMove(self,  0,  1); break;
-				case ord("D"): tileMove(self,  1,  0); break;
+				case ord("W"): 
+					tileMove(self,  0, -1); 
+					instance_destroy(obj_cursor);
+					break;
+				case ord("A"):
+					tileMove(self, -1,  0); 
+					instance_destroy(obj_cursor);
+					break;
+				case ord("S"): 
+					tileMove(self,  0,  1);
+					instance_destroy(obj_cursor);
+					break;
+				case ord("D"): 
+					tileMove(self,  1,  0); 
+					instance_destroy(obj_cursor);
+					break;
 			}
 		}
 		
