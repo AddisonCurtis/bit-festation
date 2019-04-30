@@ -16,7 +16,8 @@ if (sign(relDestX) == -1 or sign(relDestY) == -1) {
 										all, false, false);
 }
    
-if (collidedObject == noone or (variable_instance_exists(collidedObject, "traversable") and collidedObject.traversable)) {
+if (collidedObject == noone or (variable_instance_exists(collidedObject, "traversable") and collidedObject.traversable)
+							or (variable_instance_exists(object, "traversable")         and object.traversable)) {
 	object.x += relDestX;
 	object.y += relDestY;
 } else {
