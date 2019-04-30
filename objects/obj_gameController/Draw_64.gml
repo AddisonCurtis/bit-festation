@@ -1,3 +1,8 @@
+if (hp <= 0) {
+	return;	
+}
+
+
 // Drawing health meter
 draw_set_color(c_black);
 draw_rectangle(10, display_get_gui_height()-105, 40, display_get_gui_height()-5, false);
@@ -28,3 +33,7 @@ for (var i=0; i<3; i++) {
 		draw_sprite_stretched(object_get_sprite(inventory[i]), 0, 16+i*64, 10, 64, 64);
 	}
 }
+
+draw_set_color(c_red);
+// Remaining enemies
+draw_text(display_get_gui_width()-256, 16, "Remaining enemies: " + string(array_length_1d(global.allEnemies)));

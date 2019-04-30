@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "2b159ca4-d77f-4a30-bb13-67620bbdb81b",
+            "Value": {
+                "id": "5a71c74f-80ba-4f26-948d-909366423521",
+                "resourcePath": "rooms\\roo_winScreen\\roo_winScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "32849d99-269e-4688-91f3-3095ffc85b8d",
             "Value": {
                 "id": "04926eb2-92b8-440f-b81b-2812a76e9bb2",
@@ -396,6 +404,14 @@
                 "id": "e7205248-3a32-4d03-8ca2-9470a93280d9",
                 "resourcePath": "sprites\\sBlue_Standing\\sBlue_Standing.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5be11ae0-8673-4f28-a0c3-6cd02901cc4e",
+            "Value": {
+                "id": "c30b1d4e-9250-4c77-8fa4-3d1b8e40b4d4",
+                "resourcePath": "rooms\\roo_lossScreen\\roo_lossScreen.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -652,14 +668,6 @@
                 "id": "77fb3f79-0e51-49a6-b98d-c587d91c130d",
                 "resourcePath": "sprites\\sVase_bits_3\\sVase_bits_3.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "99d1ddd0-0692-47ef-93a4-17f831172e6b",
-            "Value": {
-                "id": "51b132b0-52c8-4ab4-9023-86dcae92d0ba",
-                "resourcePath": "rooms\\roo_game_over\\roo_game_over.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1035,6 +1043,14 @@
             "Value": {
                 "id": "8f6034b3-82c3-46c0-940e-f6db8c389205",
                 "resourcePath": "objects\\obj_shopToBasement\\obj_shopToBasement.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f34829d1-553d-4b4f-aaf4-56b1fcf44f99",
+            "Value": {
+                "id": "8ece7ff0-ce8c-4452-9cd5-65db2782522f",
+                "resourcePath": "objects\\obj_deathAnimation\\obj_deathAnimation.yy",
                 "resourceType": "GMObject"
             }
         },
