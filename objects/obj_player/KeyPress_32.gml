@@ -5,6 +5,9 @@ if(instance_exists(obj_cursor)){
 	madeMove=true;
 	if(obj_gameController.equipedWeapon == obj_shortSword){
 		var slashTemp = instance_create_layer(obj_cursor.x,obj_cursor.y, "Instances", obj_swordSlash);
+	}else
+	if(obj_gameController.equipedWeapon == obj_magicStaff){
+		var slashTemp = instance_create_layer(obj_cursor.x,obj_cursor.y, "Instances", obj_magicBlast);
 		if(obj_cursor.dir == dir.up){
 			slashTemp.slashDir = slashDir.up;
 		}else
@@ -17,14 +20,5 @@ if(instance_exists(obj_cursor)){
 		if(obj_cursor.dir == dir.right){
 			slashTemp.slashDir = slashDir.right;			
 		}
-		
-		//If enemy collides with cursor, deal damage
-		//if(instance_exists(obj_baddie)){
-		//	enemyTarget = instance_place(obj_cursor.x, obj_cursor.y, obj_baddie);
-		//}
-		//if(enemyTarget != noone){
-		//	with(enemyTarget){	
-		//	}
-		//}
 	}
 }
