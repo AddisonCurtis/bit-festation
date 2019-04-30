@@ -1,4 +1,4 @@
-////THIS DIDN'T WORK!!! PLACE meeting and position meeting both return false idk why
+//THIS DIDN'T WORK!!! PLACE meeting and position meeting both return false idk why
 //var itemTemp = noone;
 //if(room==roo_shop){	
 //	show_debug_message("in room shop");
@@ -6,15 +6,15 @@
 //	// If Object At Place
 //	with(obj_cursor){
 //		show_debug_message("bool: " + string(instance_place(x, y, obj_shopItem1) && itemTemp != noone));
-//		if(instance_place(x, y, obj_shopItem1) && itemTemp != noone){
+//		if(instance_place(x, y, obj_shopItem1) && itemTemp == noone){
 //			show_debug_message("collide");
 //			itemTemp = obj_shopItem1;
 //		}else 
-//		if(instance_place(x, y, obj_shopItem2) && itemTemp != noone){
+//		if(instance_place(x, y, obj_shopItem2) && itemTemp == noone){
 //			show_debug_message("collide");
 //			itemTemp = obj_shopItem2;
 //		}else 
-//		if(instance_place(x, y, obj_shopItem3) && itemTemp != noone){
+//		if(instance_place(x, y, obj_shopItem3) && itemTemp == noone){
 //			show_debug_message("collide");
 //			itemTemp = obj_shopItem3;
 //		}

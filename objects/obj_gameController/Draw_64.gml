@@ -5,7 +5,7 @@ draw_rectangle(10, display_get_gui_height()-105, 40, display_get_gui_height()-5,
 draw_set_color(c_white);
 draw_rectangle(15, display_get_gui_height()-100, 35, display_get_gui_height()-10, false);
 
-show_debug_message("test");
+//show_debug_message("test");
 
 draw_set_color(c_red);
 if (hp > 0) {

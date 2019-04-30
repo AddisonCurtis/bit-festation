@@ -15,10 +15,10 @@ if (sign(relDestX) == -1 or sign(relDestY) == -1) {
 		                                object.x+relDestX+sign(relDestX)*(objW-1), object.y+relDestY+sign(relDestY)*(objH-1),
 										all, false, false);
 }
-
+   
 if (collidedObject == noone or (variable_instance_exists(collidedObject, "traversable") and collidedObject.traversable)) {
 	object.x += relDestX;
 	object.y += relDestY;
 } else {
-	return collidedObject;	
+	return collidedObject;
 }

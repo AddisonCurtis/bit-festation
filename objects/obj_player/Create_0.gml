@@ -10,8 +10,10 @@ moveKeyDelay = 0;
 
 globalvar attack_direction;
 attack_direction = "none";
-globalvar curr_health ;
-curr_health = 10;
+
+//Replaced with gameController health
+//globalvar curr_health ;
+//curr_health = 10;
 
 //SHOP LOGIC
 money = 500;

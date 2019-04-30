@@ -1,8 +1,8 @@
 {
-    "id": "3d99a995-709a-48a2-8a09-b9ac06b34f91",
+    "id": "b5d68827-949f-4806-9ab4-82515c80554e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_slime",
+    "name": "obj_skeletonArcher",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8bde4c43-7e47-4aa5-a447-1a5f9d2b616b",
+    "spriteId": "7d009988-cf07-4503-b713-be5dba3b5d94",
     "visible": true
 }

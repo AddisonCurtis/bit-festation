@@ -11,3 +11,10 @@ name = "fake potion";
 /// @DnDArgument : "expr" "150"
 /// @DnDArgument : "var" "price"
 price = 150;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 06F111DF
+/// @DnDArgument : "expr" "150"
+/// @DnDArgument : "var" "price"
+price = 150;
