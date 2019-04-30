@@ -1,8 +1,8 @@
 {
-    "id": "dc4b3711-6546-4b48-b4b1-c3adec4ad25a",
+    "id": "5e13fa7d-a0a1-442f-83ef-774bb35a196e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sword",
+    "name": "obj_shortSword",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d6f88cc4-6289-4aac-9538-e5b0d38ee2c1",
-    "visible": true
+    "spriteId": "01d3cb3f-336c-4d3f-8bb0-1fca2f464697",
+    "visible": false
 }

@@ -1,38 +1,18 @@
 {
-    "id": "eb33e791-3dc6-46c3-91ce-3938827d3a01",
+    "id": "f3176669-c788-4091-ae7a-b1e4dbc12d08",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enm_attack",
+    "name": "obj_shopToBasement",
     "eventList": [
         {
-            "id": "21be7b4d-a3ed-42f5-ae1c-59101c818494",
+            "id": "5c16ade4-243c-48ed-84a0-e541d1343930",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "4203fd47-ae7c-4d95-84e7-803840aea575",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "eb33e791-3dc6-46c3-91ce-3938827d3a01"
-        },
-        {
-            "id": "1c63e2eb-ce84-4ae1-99ea-44e81606c3f3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "eb33e791-3dc6-46c3-91ce-3938827d3a01"
-        },
-        {
-            "id": "ad7e898f-397d-418d-a06c-97b4bf077833",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "eb33e791-3dc6-46c3-91ce-3938827d3a01"
+            "m_owner": "f3176669-c788-4091-ae7a-b1e4dbc12d08"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "10994e6b-fd09-4b13-8c6e-76f82f620c5a",
+            "id": "391db2da-a561-487b-9389-616bd2743430",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,12 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
+            "value": "1",
             "varName": "traversable",
             "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "417fb59a-4d2c-4713-8a39-79da4630a336",
+    "spriteId": "03aea497-8d7e-4206-8225-6955012455de",
     "visible": true
 }

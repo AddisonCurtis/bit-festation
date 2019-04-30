@@ -1,6 +1,9 @@
 action = false;
 numMoves = 0;
 
-if (not instance_exists(obj_baddie)) {
-	room_goto(roo_game_over);
+for (var i=0; i<array_length_1d(inventory); i++) {
+	if (keyboard_check(ord(string(i+1)))) {
+		selectedSlot = i;
+		break;
+	}
 }
