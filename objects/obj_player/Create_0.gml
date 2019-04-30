@@ -9,6 +9,10 @@ var keyDown = false;
 
 moveKeyDelay = 0;
 
+globalvar attack_direction;
+attack_direction = "none";
+globalvar curr_health ;
+curr_health = 10;
 
 //SHOP LOGIC
 money = 500;

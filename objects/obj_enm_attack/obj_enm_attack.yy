@@ -2,7 +2,7 @@
     "id": "eb33e791-3dc6-46c3-91ce-3938827d3a01",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enm_sword",
+    "name": "obj_enm_attack",
     "eventList": [
         {
             "id": "21be7b4d-a3ed-42f5-ae1c-59101c818494",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "35fd4319-0c04-4512-8d99-b961616ec011",
+    "spriteId": "417fb59a-4d2c-4713-8a39-79da4630a336",
     "visible": true
 }

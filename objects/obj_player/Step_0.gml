@@ -8,20 +8,24 @@ for (var i=0; i<array_length_1d(DIRECTIONAL_KEYS); i++) {
 			madeMove = true;
 			switch (DIRECTIONAL_KEYS[i]) {
 				case ord("W"): 
-					tileMove(self,  0, -1); 
+					tileMove(self,  0, -1);
+					attack_direction = "up";
 					instance_destroy(obj_cursor);
 					break;
 				case ord("A"):
 					tileMove(self, -1,  0); 
 					instance_destroy(obj_cursor);
+					attack_direction = "left";
 					break;
 				case ord("S"): 
 					tileMove(self,  0,  1);
 					instance_destroy(obj_cursor);
+					attack_direction = "down";
 					break;
 				case ord("D"): 
 					tileMove(self,  1,  0); 
 					instance_destroy(obj_cursor);
+					attack_direction = "right";
 					break;
 			}
 		}
