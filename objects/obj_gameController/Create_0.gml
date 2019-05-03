@@ -2,7 +2,7 @@ action = false;
 numMoves = 0;
 
 hp = 100;
-money = 5000;
+money = 0;
 //inventory variables
 //inventory = [obj_shortSword, noone, noone];
 inventory[0] = obj_shortSword;
