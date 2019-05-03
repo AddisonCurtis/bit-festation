@@ -23,6 +23,8 @@ if(room == roo_arena3){
 //Win
 if(wave3clear){
 	show_debug_message("Win!");
+	audio_stop_all();
+	audio_play_sound(sound_win, 0, 1);
 	instance_destroy(self);
 	room_goto(roo_winScreen);
 }

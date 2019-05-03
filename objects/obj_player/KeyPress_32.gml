@@ -4,9 +4,12 @@ var enemyTarget = noone;
 if(instance_exists(obj_cursor)){
 	madeMove=true;
 	if(obj_gameController.equipedWeapon == obj_shortSword){
+		audio_play_sound(sound_attacc, 0, 0);		
 		var slashTemp = instance_create_layer(obj_cursor.x,obj_cursor.y, "Instances", obj_swordSlash);
 	}else
 	if(obj_gameController.equipedWeapon == obj_magicStaff){
+		
+		audio_play_sound(sound_attacc, 0, 0);		
 		var slashTemp = instance_create_layer(obj_cursor.x,obj_cursor.y, "Instances", obj_magicBlast);
 		if(obj_cursor.dir == dir.up){
 			slashTemp.slashDir = slashDir.up;

@@ -11,3 +11,6 @@ if(room==roo_arena2){
 }else{
 	show_debug_message("Unexpected StairDown Condition");
 }
+
+audio_stop_all();
+audio_play_sound(sound_battle_native, 0, 1);

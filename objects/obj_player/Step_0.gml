@@ -6,6 +6,8 @@ for (var i=0; i<array_length_1d(DIRECTIONAL_KEYS); i++) {
 		keyDown = true;
 		if ((moveKeyDelay == 0 and repeatDelay == 0) or moveKeyDelay == KEY_DELAY_INITIAL_WAIT) {
 			madeMove = true;
+			
+			audio_play_sound(sound_walk, 0, 0);
 			switch (DIRECTIONAL_KEYS[i]) {
 				case ord("W"): 
 					tileMove(self,  0, -1);
