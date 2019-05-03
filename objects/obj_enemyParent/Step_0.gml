@@ -13,12 +13,16 @@ else{
 }
 if(mm) {
 	currentCooldown--;
-	if ((currentCooldown <= 0) && play_dist> 8) {
+	show_debug_message("dist: " + string(play_dist));
+	if ((currentCooldown <= 0) && play_dist > 1) {
 		currentCooldown = cooldownStart;
 		// Set Point Direction
 		dirRads = point_direction(x,y, play_x,play_y)*pi/180;
 		vert = sin(dirRads);
 		hori = cos(dirRads)
+		show_debug_message("trying to move");
+		show_debug_message("vert: " + string(vert));
+		show_debug_message("hori: " + string(hori));
 		if (abs(vert) > abs(hori)) {
 			tileMove(self, 0, -sign(vert));	
 		} else {
