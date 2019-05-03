@@ -20,7 +20,7 @@ if (hp > 0) {
 
 
 // Draw inventory items
-for (var i=0; i<3; i++) {
+for (var i=0; i<array_length_1d(inventory); i++) {
 	if (i == selectedSlot) {
 		draw_set_color(c_red);
 	} else {
@@ -29,9 +29,7 @@ for (var i=0; i<3; i++) {
 	
 	draw_rectangle(15+i*64, 10, 71+i*64, 71, true);
 	
-	if (inventory[i] != noone) {
-		draw_sprite_stretched(object_get_sprite(inventory[i]), 0, 16+i*64, 10, 64, 64);
-	}
+	draw_sprite_stretched(object_get_sprite(inventory[i]), 0, 16+i*64, 10, 64, 64);
 }
 
 draw_set_color(c_red);
