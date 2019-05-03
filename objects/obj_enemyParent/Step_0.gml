@@ -14,7 +14,7 @@ else{
 if(mm) {
 	currentCooldown--;
 	show_debug_message("dist: " + string(play_dist));
-	if ((currentCooldown <= 0) && play_dist > 1) {
+	if ((currentCooldown <= 0) && play_dist > 3) {
 		currentCooldown = cooldownStart;
 		// Set Point Direction
 		dirRads = point_direction(x,y, play_x,play_y)*pi/180;
