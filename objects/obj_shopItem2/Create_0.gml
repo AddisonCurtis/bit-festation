@@ -8,6 +8,6 @@ name = "fake shield";
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 59E24F2E
-/// @DnDArgument : "expr" "150"
+/// @DnDArgument : "expr" "500"
 /// @DnDArgument : "var" "price"
-price = 150;
+price = 500;

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_rat",
     "eventList": [
-        
+        {
+            "id": "58162924-0e8f-4113-9ca9-14c50e2caf43",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e7fb6208-934f-495d-947a-0ec5f3527f39"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

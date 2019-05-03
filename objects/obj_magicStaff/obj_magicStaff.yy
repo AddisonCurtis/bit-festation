@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_magicStaff",
     "eventList": [
-        
+        {
+            "id": "2f20c069-7aec-4b1d-be93-1deafe30aefd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f7bcc641-44dc-4206-a8b8-668b9c42f8e1"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

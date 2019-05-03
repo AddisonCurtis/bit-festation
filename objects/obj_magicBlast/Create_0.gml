@@ -4,3 +4,4 @@
 //should have been named magic direction. Used to control what direction it will shoot towards.
 enum slashDir { up, down, left, right}
 damageDealt = false;
+traversable = true;

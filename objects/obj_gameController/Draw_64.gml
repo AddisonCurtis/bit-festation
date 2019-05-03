@@ -36,4 +36,5 @@ for (var i=0; i<3; i++) {
 
 draw_set_color(c_red);
 // Remaining enemies
-draw_text(display_get_gui_width()-256, 16, "Remaining enemies: " + string(array_length_1d(global.allEnemies)));
+draw_text(display_get_gui_width()-256, 16, "Remaining enemies: " + string(enemyCount));
+draw_text(display_get_gui_width()-500, 16, "Money: " + string(money));

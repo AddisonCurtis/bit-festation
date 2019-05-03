@@ -14,6 +14,8 @@ for (var i=0; i<array_length_1d(DIRECTIONAL_KEYS); i++) {
 					break;
 				case ord("A"):
 					tileMove(self, -1,  0); 
+					//FLip sprite to the left - which failed. Could move logic into tileMove instead.
+					//if(image_xscale > 0) image_xscale*=-1;	x += abs(2*sprite_width); 
 					instance_destroy(obj_cursor);
 					attack_direction = "left";
 					break;
@@ -24,6 +26,7 @@ for (var i=0; i<array_length_1d(DIRECTIONAL_KEYS); i++) {
 					break;
 				case ord("D"): 
 					tileMove(self,  1,  0); 
+					//if(image_xscale < 0) image_xscale*=-1; x -= abs(2*sprite_width); //Flip sprite to the right
 					instance_destroy(obj_cursor);
 					attack_direction = "right";
 					break;

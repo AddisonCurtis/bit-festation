@@ -28,16 +28,20 @@ if(mm) {
 		currentCooldown = cooldownStart;
 		var distRange = 17;
 		if (abs(y - play_y) < distRange && (x -play_x) > 0 && (x -play_x) < distRange){
-			instance_create_layer(x-16, y, "Instances", obj_enm_attack);
+			var tempSlash = instance_create_layer(x-16, y, "Instances", obj_enm_attack);
+			tempSlash.damageValue = baddieDamage;
 		}
 		else if (abs(y - play_y) < distRange && (x - play_x) < 0 && (x - play_x) > -distRange){
-			instance_create_layer(x+16, y, "Instances", obj_enm_attack);
+			var tempSlash = instance_create_layer(x+16, y, "Instances", obj_enm_attack);
+			tempSlash.damageValue = baddieDamage;
 		}
 		else if (abs(x - play_x) < distRange && (y - play_y) > 0 && (y - play_y) < distRange){
-			instance_create_layer(x, y-16, "Instances", obj_enm_attack);
+			var tempSlash = instance_create_layer(x, y-16, "Instances", obj_enm_attack);
+			tempSlash.damageValue = baddieDamage;
 		}
 		else if (abs(x - play_x) < distRange && (y - play_y) < 0 && (y - play_y) > -distRange){
-			instance_create_layer(x, y+16, "Instances", obj_enm_attack);
+			var tempSlash = instance_create_layer(x, y+16, "Instances", obj_enm_attack);
+			tempSlash.damageValue = baddieDamage;
 		}
 	}
 }
